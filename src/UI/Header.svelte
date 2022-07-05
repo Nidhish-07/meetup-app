@@ -19,6 +19,7 @@
     margin-left: 2rem;
     font-family: "Pacifico", cursive;
     font-weight: 100;
+    font-size: 2.75rem;
 
     color: #ed901e;
   }
