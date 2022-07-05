@@ -3,6 +3,7 @@
   import MeetUpPlace from "./meetup/MeetUpPlace.svelte";
   import MeetUpGrid from "./meetup/MeetUpGrid.svelte";
   import FormInput from "./UI/FormInput.svelte";
+  import Button from "./UI/Button.svelte";
 
   let meetups = [
     {
@@ -92,7 +93,7 @@
       rows="4"
     />
 
-    <button type="submit">Add</button>
+    <Button buttonType="submit" caption="Add" />
   </form>
 </main>
 
